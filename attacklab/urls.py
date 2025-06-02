@@ -9,4 +9,5 @@ urlpatterns = [
     path('session/', views.session_fixation_login),
     path('idor/', views.idor_vulnerable),
     path('clickjacking/', views.clickjacking_vulnerable),
+
 ]
